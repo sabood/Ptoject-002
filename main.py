@@ -26,5 +26,6 @@ def delete(index):
         todo_list.pop(index)
     return redirect(url_for('index'))
 
-if __name__ == '__main__':
+#if __name__ == '__main__':
     app.run(port=5000,debug=True)
+    
